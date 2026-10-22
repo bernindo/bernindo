@@ -84,7 +84,7 @@ def main():
         run = run + 1 if day['count'] else 0
         longest = max(longest, run)
     checks = []
-    for name, url in [('FidAvanti', 'https://www.fidavanti.it'), ('EdBrix Studios', 'https://edbrixstudios.vercel.app')]:
+    for name, url in [('EdBrix Studios', 'https://edbrixstudios.vercel.app')]:
         try:
             request = urllib.request.Request(url, headers={'User-Agent': 'bernindo-local-profile-preview'})
             with urllib.request.urlopen(request, timeout=20) as response:

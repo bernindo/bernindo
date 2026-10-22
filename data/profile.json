@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T12:37:28.027839+00:00",
+  "updated_at": "2026-10-22T14:44:00.249825+00:00",
   "user": {
     "login": "bernindo",
-    "name": "Bernardo",
+    "name": "Bernardo Negri da Oleggio",
     "public_repos": 1,
     "followers": 1,
     "following": 1,
@@ -1869,24 +1869,17 @@
       "homepage": null,
       "language": "Python",
       "stargazers_count": 0,
-      "updated_at": "2026-10-22T12:36:56Z"
+      "updated_at": "2026-10-22T12:37:36Z"
     }
   ],
   "events": [],
   "checks": [
     {
-      "name": "FidAvanti",
-      "url": "https://www.fidavanti.it",
-      "status": 200,
-      "reachable": true,
-      "checked_at": "2026-10-22T12:37:28.027839+00:00"
-    },
-    {
       "name": "EdBrix Studios",
       "url": "https://edbrixstudios.vercel.app",
       "status": 200,
       "reachable": true,
-      "checked_at": "2026-10-22T12:37:28.027839+00:00"
+      "checked_at": "2026-10-22T14:44:00.249825+00:00"
     }
   ],
   "sources": [

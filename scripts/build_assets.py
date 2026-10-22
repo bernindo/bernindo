@@ -31,7 +31,7 @@ def header(light=False):
     body += f'<text x="95" y="29" fill="{muted}" font-size="11">bernindo / README.md</text><text x="45" y="105" fill="{accent}" font-size="11">~/ CIAO, MONDO.</text>'
     body += f'<g class="intro"><text x="42" y="187" fill="{fg}" font-size="69" letter-spacing="-4" style="font-family:sans-serif;font-weight:650">Bernardo<tspan fill="{accent}">.</tspan></text><text x="45" y="235" fill="{muted}" font-size="21" style="font-family:sans-serif">Le idee sono un buon inizio.</text><text x="45" y="264" fill="{muted}" font-size="21" style="font-family:sans-serif">Il bello è costruirle.</text></g>'
     body += f'<rect x="45" y="295" width="390" height="138" rx="12" fill="{bg}" stroke="{line}"/>'
-    for i,(text,color) in enumerate([('❯ whoami',accent),('name      Bernardo',fg),('handle    @bernindo',muted),('projects  fidcard · edbrix-studios',muted)]):
+    for i,(text,color) in enumerate([('❯ whoami',accent),('name      Bernardo',fg),('handle    @bernindo',muted),('project   edbrix-studios',muted)]):
         body += f'<text class="row" style="animation-delay:{.4+i*.45}s" x="65" y="{324+i*26}" font-size="13" fill="{color}">{html.escape(text)}</text>'
     body += '<defs><clipPath id="portrait"><circle cx="755" cy="252" r="166"/></clipPath></defs>'
     body += f'<circle cx="755" cy="252" r="176" fill="none" stroke="{line}"/><g clip-path="url(#portrait)"><image class="color" x="580" y="77" width="350" height="350" xlink:href="{image("bernardo.png")}"/><g class="ascii"><circle cx="755" cy="252" r="168" fill="{bg}"/>'
@@ -79,7 +79,7 @@ for i,(value,label) in enumerate(stats):
     body+=f'<text x="{x}" y="51" font-size="34" fill="#f0eee6">{value}</text><text x="{x}" y="78" font-size="10" fill="#a1aaa9">{label}</text>'
 (OUT/'stats.svg').write_text(svg(866,105,body,'Statistiche pubbliche di bernindo, rilevate '+STAMP))
 
-for slug,first,second in [('fidavanti','fidavanti-home.png','fidavanti-flow.png'),('edbrix','edbrix-home.png','edbrix-method.png')]:
+for slug,first,second in [('edbrix','edbrix-home.png','edbrix-method.png')]:
     body=f'<image width="1280" height="720" preserveAspectRatio="xMidYMid meet" xlink:href="{image(first)}"/><image class="second" width="1280" height="720" preserveAspectRatio="xMidYMid meet" xlink:href="{image(second)}"/>'
     style='@keyframes tour{0%,38%{opacity:0}45%,86%{opacity:1}94%,100%{opacity:0}}.second{animation:tour 12s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.second{display:none}}'
     (OUT/(slug+'-demo.svg')).write_text(svg(1280,720,body,'Tour visivo del sito pubblico '+slug,style))
@@ -92,10 +92,6 @@ readme=f'''<picture>
 </picture>
 
 ### Progetti selezionati
-
-**[FidAvanti / fidcard](https://www.fidavanti.it)** — Carte fedeltà digitali: iscrizione con QR, punti e premi.
-
-[![Tour visivo del sito pubblico FidAvanti](assets/github/fidavanti-demo.svg)](https://www.fidavanti.it)
 
 **[EdBrix Studios](https://edbrixstudios.vercel.app)** — Strategia, design e sviluppo: il sito dello studio.
 

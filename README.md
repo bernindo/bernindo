@@ -1,25 +1,35 @@
+<div align="center">
+
+<img src="assets/github/terminal-signal.svg" width="900" alt="Matrice decorativa animata: non rappresenta contributi GitHub">
+
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/github/header-light.svg">
-  <img src="assets/github/header-dark.svg" alt="Bernardo, @bernindo. Le idee sono un buon inizio. Il bello è costruirle." width="1000">
+  <source media="(max-width: 600px)" srcset="assets/github/terminal-dashboard-mobile.svg">
+  <img src="assets/github/terminal-dashboard.svg" width="900" alt="Bernardo: ritratto ASCII, EdBrix Studios, tecnologie ed equalizzatore decorativo">
 </picture>
 
-### Progetti selezionati
+### `bernindo@github ~ $ ./edbrix.sh`
 
-**[FidAvanti / fidcard](https://www.fidavanti.it)** — Carte fedeltà digitali: iscrizione con QR, punti e premi.
+<a href="https://edbrixstudios.vercel.app"><picture>
+  <source media="(max-width: 600px)" srcset="assets/github/edbrix-showcase-mobile.svg">
+  <img src="assets/github/edbrix-showcase.svg" width="900" alt="EdBrix Studios: tour animato delle schermate reali del sito. Apri il sito.">
+</picture></a>
 
-[![Tour visivo del sito pubblico FidAvanti](assets/github/fidavanti-demo.svg)](https://www.fidavanti.it)
+**[Esplora EdBrix Studios](https://edbrixstudios.vercel.app)**
 
-**[EdBrix Studios](https://edbrixstudios.vercel.app)** — Strategia, design e sviluppo: il sito dello studio.
+</div>
 
-[![Tour visivo del sito pubblico EdBrix Studios](assets/github/edbrix-demo.svg)](https://edbrixstudios.vercel.app)
+Il tour anima due schermate del sito pubblico. Matrice ed equalizzatore sono decorativi; i dati GitHub reali sono riportati sotto.
 
-Le sequenze mostrano schermate dei siti pubblici, non registrazioni di operazioni nelle applicazioni.
+<details><summary>Statistiche GitHub reali</summary>
 
-### GitHub, in numeri
+![Calendario reale](assets/github/terminal-calendar.svg)
 
-![Statistiche pubbliche di bernindo](assets/github/stats.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/github/terminal-statistics-mobile.svg">
+  <img src="assets/github/terminal-statistics.svg" width="900" alt="Statistiche pubbliche reali e ritratto ASCII">
+</picture>
 
-![Calendario dei contributi pubblicamente visibili](assets/github/contributions.svg)
+</details>
 
 <details><summary>Snake dei contributi</summary>
 
@@ -27,15 +37,18 @@ Le sequenze mostrano schermate dei siti pubblici, non registrazioni di operazion
 
 </details>
 
-<details><summary>Attività, stato dei siti e fonti</summary>
+<details><summary>Dati, attività e fonti</summary>
+
+Rilevazione: **2026-10-22**. Il calendario mostra i contributi pubblicamente visibili; non rappresenta automaticamente tutta l’attività privata.
+
+Streak, giorni attivi, giorno migliore e media sono calcolati sugli ultimi 365 giorni. La streak attuale include ieri se oggi non ci sono ancora contributi. Il grafico mostra gli ultimi 12 mesi di calendario; il mese corrente è parziale. I valori zero restano zero.
 
 Nessun evento pubblico recente restituito da GitHub.
 
-- **FidAvanti:** HTTP 200, sito raggiungibile (2026-10-22).
-- **EdBrix Studios:** HTTP 200, sito raggiungibile (2026-10-22).
+- **EdBrix Studios:** sito raggiungibile (HTTP 200).
 
-I controlli HTTP indicano la raggiungibilità al momento della rilevazione, non l’esito di test o CI. Dati pubblici rilevati il **2026-10-22**. Non comprendono automaticamente tutta l’attività privata.
+I controlli HTTP misurano la raggiungibilità, non il funzionamento interno dei prodotti.
 
-[Dati e fonti](data/profile.json) · [Profilo GitHub](https://github.com/bernindo)
+[Dati e fonti](data/profile.json) · [GitHub](https://github.com/bernindo)
 
 </details>
