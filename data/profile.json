@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T12:36:44.106304+00:00",
+  "updated_at": "2026-10-22T12:37:28.027839+00:00",
   "user": {
     "login": "bernindo",
     "name": "Bernardo",
@@ -9,7 +9,7 @@
     "html_url": "https://github.com/bernindo"
   },
   "contributions": {
-    "total": 2,
+    "total": 3,
     "days": [
       {
         "date": "2025-10-19",
@@ -973,7 +973,7 @@
       },
       {
         "date": "2026-04-29",
-        "level": 4,
+        "level": 2,
         "count": 1
       },
       {
@@ -1854,11 +1854,11 @@
       {
         "date": "2026-10-22",
         "level": 4,
-        "count": 1
+        "count": 2
       }
     ],
     "longest_streak": 1,
-    "best_day": 1,
+    "best_day": 2,
     "source": "https://github.com/users/bernindo/contributions"
   },
   "repos": [
@@ -1867,9 +1867,9 @@
       "description": "Profilo di Bernardo · progetti, animazioni e attività pubblica",
       "html_url": "https://github.com/bernindo/bernindo",
       "homepage": null,
-      "language": null,
+      "language": "Python",
       "stargazers_count": 0,
-      "updated_at": "2026-10-22T12:36:27Z"
+      "updated_at": "2026-10-22T12:36:56Z"
     }
   ],
   "events": [],
@@ -1879,14 +1879,14 @@
       "url": "https://www.fidavanti.it",
       "status": 200,
       "reachable": true,
-      "checked_at": "2026-10-22T12:36:44.106304+00:00"
+      "checked_at": "2026-10-22T12:37:28.027839+00:00"
     },
     {
       "name": "EdBrix Studios",
       "url": "https://edbrixstudios.vercel.app",
       "status": 200,
       "reachable": true,
-      "checked_at": "2026-10-22T12:36:44.106304+00:00"
+      "checked_at": "2026-10-22T12:37:28.027839+00:00"
     }
   ],
   "sources": [
