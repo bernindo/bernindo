@@ -9,10 +9,7 @@
 
 ### `bernindo@github ~ $ ./edbrix.sh`
 
-<a href="https://edbrixstudios.vercel.app"><picture>
-  <source media="(max-width: 600px)" srcset="assets/github/edbrix-showcase-mobile.svg">
-  <img src="assets/github/edbrix-showcase.svg" width="900" alt="EdBrix Studios: tour animato delle schermate reali del sito. Apri il sito.">
-</picture></a>
+<a href="https://edbrixstudios.vercel.app"><img src="assets/github/edbrix-showcase.svg" width="900" alt="EdBrix Studios: tour animato delle schermate reali del sito. Apri il sito."></a>
 
 **[Esplora EdBrix Studios](https://edbrixstudios.vercel.app)**
 
