@@ -2,8 +2,8 @@
   "current_streak": 1,
   "longest_streak": 1,
   "active_days": 2,
-  "best_day": 3,
-  "average_active_day": 2.0,
+  "best_day": 4,
+  "average_active_day": 2.5,
   "months": {
     "2025-11": 0,
     "2025-12": 0,
@@ -16,6 +16,6 @@
     "2026-07": 0,
     "2026-08": 0,
     "2026-09": 0,
-    "2026-10": 3
+    "2026-10": 4
   }
 }

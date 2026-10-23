@@ -36,11 +36,12 @@ Il tour anima due schermate del sito pubblico. Matrice ed equalizzatore sono dec
 
 <details><summary>Dati, attività e fonti</summary>
 
-Rilevazione: **2026-10-22**. Il calendario mostra i contributi pubblicamente visibili; non rappresenta automaticamente tutta l’attività privata.
+Rilevazione: **2026-10-23**. Il calendario mostra i contributi pubblicamente visibili; non rappresenta automaticamente tutta l’attività privata.
 
 Streak, giorni attivi, giorno migliore e media sono calcolati sugli ultimi 365 giorni. La streak attuale include ieri se oggi non ci sono ancora contributi. Il grafico mostra gli ultimi 12 mesi di calendario; il mese corrente è parziale. I valori zero restano zero.
 
-Nessun evento pubblico recente restituito da GitHub.
+- 2026-10-22 · CreateEvent · bernindo/bernindo
+- 2026-10-22 · PushEvent · bernindo/bernindo
 
 - **EdBrix Studios:** sito raggiungibile (HTTP 200).
 
