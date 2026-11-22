@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T14:40:08.301211+00:00",
+  "updated_at": "2026-11-22T14:35:36.763502+00:00",
   "user": {
     "login": "bernindo",
     "name": "Bernardo Negri da Oleggio",
@@ -11,41 +11,6 @@
   "contributions": {
     "total": 5,
     "days": [
-      {
-        "date": "2025-11-16",
-        "level": 0,
-        "count": 0
-      },
-      {
-        "date": "2025-11-17",
-        "level": 0,
-        "count": 0
-      },
-      {
-        "date": "2025-11-18",
-        "level": 0,
-        "count": 0
-      },
-      {
-        "date": "2025-11-19",
-        "level": 0,
-        "count": 0
-      },
-      {
-        "date": "2025-11-20",
-        "level": 0,
-        "count": 0
-      },
-      {
-        "date": "2025-11-21",
-        "level": 0,
-        "count": 0
-      },
-      {
-        "date": "2025-11-22",
-        "level": 0,
-        "count": 0
-      },
       {
         "date": "2025-11-23",
         "level": 0,
@@ -1865,6 +1830,11 @@
         "date": "2026-11-21",
         "level": 0,
         "count": 0
+      },
+      {
+        "date": "2026-11-22",
+        "level": 0,
+        "count": 0
       }
     ],
     "longest_streak": 1,
@@ -1909,15 +1879,6 @@
         "name": "bernindo/bernindo",
         "url": "https://api.github.com/repos/bernindo/bernindo"
       }
-    },
-    {
-      "type": "PushEvent",
-      "created_at": "2026-10-22T14:46:33Z",
-      "repo": {
-        "id": 1429725726,
-        "name": "bernindo/bernindo",
-        "url": "https://api.github.com/repos/bernindo/bernindo"
-      }
     }
   ],
   "checks": [
@@ -1926,7 +1887,7 @@
       "url": "https://edbrixstudios.vercel.app",
       "status": 200,
       "reachable": true,
-      "checked_at": "2026-11-21T14:40:08.301211+00:00"
+      "checked_at": "2026-11-22T14:35:36.763502+00:00"
     }
   ],
   "sources": [
